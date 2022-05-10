@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@500&display=swap');
+@import "reset.css";
+@import "clock.css";
+@import "user.css";
+@import "weather.css";
+@import "quote.css";
+@import "todo_list.css";
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hidden {
+    display: none;
+}

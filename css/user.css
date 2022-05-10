@@ -1,0 +1,14 @@
+.user {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.user_input {
+    padding: 15px 50px;
+    text-align: center;
+}
+
+.user_input::placeholder {
+    text-align: center;
+}
