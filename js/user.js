@@ -11,7 +11,7 @@ function submitUser(event) {
 
 function printGreeting(userName) {
   userInput.remove();
-  greeting.innerText = `반갑습니다. ${userName}`;
+  greeting.innerText = `${userName}님 좋은 하루 보내세요.`;
   greeting.classList.remove("hidden");
 }
 

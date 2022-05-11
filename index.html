@@ -8,28 +8,35 @@
     <link rel="stylesheet" href="css/style.css" class="css" />
   </head>
   <body>
-    <div class="clock">00:00:00</div>
-    <form class="user">
-      <input
-        class="user_input"
-        type="text"
-        required
-        placeholder="이름을 입력해주세요."
-      />
-      <div class="hidden greeting"></div>
-    </form>
-    <div class="weather">날씨</div>
-    <form class="todo_form">
-      <input class="todo_input" required type="text" />
-    </form>
-    <ul class="todo_list"></ul>
-    <div class="quote_form">
-      <span class="quote"></span>
-      <span class="author"></span>
+    <div class="main">
+      <div class="clock">00:00:00</div>
+      <form class="user">
+        <input
+          class="user_input"
+          type="text"
+          required
+          placeholder="이름을 입력해주세요."
+        />
+        <div class="hidden greeting"></div>
+      </form>
+      <div class="weather">
+        <div></div>
+        <div></div>
+      </div>
+      <form class="todo_form">
+        <input class="todo_input" required type="text" />
+      </form>
+      <ul class="todo_list"></ul>
+      <div class="quote_form">
+        <div class="quote"></div>
+        <div class="author"></div>
+      </div>
     </div>
     <script src="js/user.js"></script>
     <script src="js/clock.js"></script>
     <script src="js/quote.js"></script>
     <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/background.js"></script>
   </body>
 </html>

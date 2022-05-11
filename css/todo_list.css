@@ -4,9 +4,30 @@
     margin-top: 20px;
 }
 
+.todo_form input {
+    opacity: 0.5;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    width: 300px;
+    text-align: center;
+    font-size: 15px;
+}
+
 .todo_list {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 15px;
+    color: white;
+}
+
+.todo_list li {
+    margin-bottom: 5px;
+}
+
+.todo_list li button {
+    border: none;
+    margin-left: 5px;
+    background-color: unset;
 }

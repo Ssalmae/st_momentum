@@ -1,4 +1,9 @@
 .weather {
     display: flex;
     justify-content: center;
+    color: white;
+}
+
+.weather div:first-child {
+    margin-right: 10px;
 }
